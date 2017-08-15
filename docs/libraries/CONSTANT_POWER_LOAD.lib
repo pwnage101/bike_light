@@ -1,0 +1,7 @@
+.SUBCKT CONSTANT_POWER_LOAD 1 2 P=900m
+* see http://ngspice.sourceforge.net/docs/ngspice26-manual.pdf#subsection.5.3.1
+B1 1 2 i={P/V(1,2)}
+.ENDS CONSTANT_POWER_LOAD
+
+* other useful links:
+* * http://www.eng.utoledo.edu/~rking/PE1/ConstantPowerLoad.pdf
